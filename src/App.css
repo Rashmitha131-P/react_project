@@ -1,0 +1,57 @@
+
+.App {
+  background-color:darkslategray;
+}
+.sidebar {
+  position: absolute;
+  right: 0;
+}
+
+.sidebar_icon {
+  position: fixed;
+  right: 36rem;
+  top: 17rem;
+  background-color: rgba(13, 123, 186, 0.884);
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.sidebar_items {
+  background-color:darkslategrey;
+  padding-left: 31px;
+  color: white;
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  border: 1px solid black;
+  background-color: black;
+  margin-right: 13px;
+}
+.result {
+  font-size: 11px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 9px;
+}
+.toggle {
+  position: absolute;
+    right: 20px;
+}
+.select_provider {
+  text-align: center;
+}
+
+.sidebar_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
